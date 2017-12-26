@@ -1,0 +1,72 @@
+
+body {
+    text-align: center;
+    background-color: black;
+    -webkit-user-select: none;
+    background-image: url('img/wallpaper.jpg');
+    background-repeat: repeat;
+}
+
+.wrapper {
+    width: 540px;
+    margin: 0 auto;
+}
+
+canvas {
+    border: 1px rgb(0, 255, 0) solid;
+}
+
+#spaceinvaders {
+    border-color: rgb(0,255,0);
+}
+
+.hidden {
+    display: none;
+}
+
+.credits {
+    background-color: black;
+    margin: auto;
+    width: 35%;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255,255,255);
+}
+
+h2, p {
+    color: rgb(255,255,255);
+}
+
+.buttons {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    color: rgb(255,255,255);
+}
+
+.buttons div {
+    padding: 1.5em;
+    display: inline;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    border-style: solid;
+    border-width: 1px;
+}
+
+#shoot {
+    margin-left: 8.5em;
+    margin-right: 8.5em;
+}
+
+.buttons div:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+}

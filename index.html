@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=0"/>
+        <title>Space Invaders</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Minimalist AutoSize Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1729038428243112"
+     data-ad-slot="2900819760"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
+    <body>
+
+        <div class="wrapper">
+            <canvas id="spaceinvaders" width="540" height="580"></canvas>
+        </div>
+
+        <section class="buttons"></section>
+
+        <div class="hidden">
+            <img src="img/invaders3.png" id="invaders" width="211" height="29"/>
+            <img src="img/kaboom.png" id="kaboom" width="34" height="23"/>
+            <img src="img/sound.png" id="sound-icon"/>
+
+            <audio src="audio/7.wav" id="missile"></audio>
+            <audio src="audio/5.wav" id="flight"></audio>
+            <audio src="audio/explodemini.wav" id="explosion"></audio>
+            <audio src="audio/8bit_bomb_explosion.wav" id="8bit-explosion"></audio>
+        </div>
+
+        <section class="credits">
+            <h2>Back To <a href="http://believing.space/games/">Believing.Space</a></h2>
+            <p>Space Invaders Spritesheet & Logo: <a href="http://gooperblooper22.deviantart.com">GooperBlooper22</a>
+                <br/>
+                Player Ship Spritesheet: <a href="http://www.atomicrobotdesign.com">Mike Thomas</a>
+                <br/>
+                Ship/Wall/Bonus Invader Explosion Sound: <a href="http://cubeengine.com/forum.php4?action=display_thread&thread_id=2164">Michel Baradari</a>
+                <br/>
+                Missile & Bonus Invader Sounds: <a href="http://www.dravenxgames.com">Dravenx</a>
+                <br/>
+                Wallpaper: <a href="http://thelowfive.deviantart.com/art/Space-Invaders-Wallpaper-189560642">thelowfive</a>
+                <br/>
+                Source Code Available: <a href="http://www.github.com/kennyhei/Space-Invaders">Here</a>
+            </p>
+        </section>
+
+        <script src="js/libs/jquery-1.8.2.min.js"></script>
+        <script src="js/libs/jquery.cookie.js"></script>
+        <script src="js/libs/jquery.touchSwipe.min.js"></script>
+        <script src="js/libs/detectmobilebrowser.js"></script>
+
+        <script src="js/game-min.js"></script>
+    </body>
+</html>
